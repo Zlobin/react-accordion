@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.accordion__item-heading {
+  border: 1px solid #ccc;
+  background-color: gray;
+}
+
+.accordion__item-panel {
+  display: none;
+}
+
+.disabled .accordion__item-heading {
+  background-color: #f00;
+}
+
+.accordion__item-heading.active {
+  background-color: green;
+}
+
+.accordion__item-heading.active + .accordion__item-panel {
+  display: block;
+}
